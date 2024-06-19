@@ -67,11 +67,20 @@ El alcance de este proyecto queda restringido a los restaurantes de California, 
 
 ## Indicadores Clave de Rendimiento (KPI's)
 
-- Aumento de la cantidad de reviews totales en un 5% con respecto al semestre anterior.
-- Aumento anual del promedio de puntuación en un 2%.
-- Disminución anual en la relación entre las reviews negativas y positivas en un 5%.
-- Aumento de las reviews positivas en los meses de junio, julio y agosto en un 5% respecto del año anterior.
-- Disminución de la cantidad total de reviews del resto de la competencia en el mismo condado en un 2%.
+- Aumento de la cantidad de reviews totales en un 5% con respecto al semestre anterior por local.
+- Disminución anual en la proporción de las reviews negativas en un 5% por local.
+- Aumento anual en la proporción de las reviews positivas en un 5% por local.
+- Disminución anual en la proporción de las reviews negativas en temporada alta (Junio, Julio y Agosto) en un 5% por local.
+- Aumento anual en la proporción de las reviews positivas en temporada alta (Junio, Julio y Agosto) en un 5% por local.
+- Disminución de la cantidad total de reviews del resto de locales competencia en la misma ciudad en un 5%.
+
+
+- Aumento de la cantidad de reviews totales en un 5% con respecto al semestre anterior por ciudad.
+- Disminución anual en la proporción de las reviews negativas en un 5% por local.
+- Aumento anual en la proporción de las reviews positivas en un 5% por ciudad.
+- Disminución anual en la proporción de las reviews negativas en temporada alta (Junio, Julio y Agosto) en un 5% por ciudad.
+- Aumento anual en la proporción de las reviews positivas en temporada alta (Junio, Julio y Agosto) en un 5% por ciudad.
+- Disminución de la cantidad total de reviews del resto de ciudades competencia en la misma ciudad en un 5%.
 
 
 
@@ -103,7 +112,8 @@ Google Cloud <img src="img\google-cloud-svgrepo-com.svg" title="Google Cloud" al
 BigQuery <img src="img/bigquery.svg" title="BigQuery" alt="BigQuery" width="40" height="40"/>
 
 ### Herramientas de Orquestación y Automatización de Flujos
-Airflow <img src="img/apache-airflow.png" title="Airflow" alt="Airflow" width="40" height="40"/>
+Google Functions <img src="img/google_functions.png" title="Airflow" alt="Airflow" width="40" height="40"/>
+Google Scheduler <img src="img/google-scheduler.png" title="Airflow" alt="Airflow" width="40" height="40"/>
 
 ### Herramientas para Sistemas de Recomendación
 Surprise <img src="img/python-original.svg" title="Surprise" alt="Surprise" width="40" height="40"/>
