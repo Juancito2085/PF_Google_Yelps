@@ -29,17 +29,9 @@ Nuestra visión es convertirnos en líderes en el campo de la consultoría de ci
 - **Colaboración:** Trabajamos en equipo con nuestros clientes y socios para alcanzar objetivos comunes, compartiendo conocimientos y experiencias.
 
 
-
 ## Contexto
 
 Un importante empresario que pertenece a un conglomerado de empresas de restaurantes y afines en los Estados Unidos, nos ha contratado para realizar un análisis detallado de la opinión de los usuarios en Yelp y cruzarlos con los de Google Maps sobre hoteles, restaurantes y otros negocios afines al turismo y ocio. Nos pide que, utilizando análisis de sentimientos de estas dos redes, podamos predecir cuáles serán los rubros de los negocios que más crecerán o decaerán. Además, desea saber dónde es conveniente emplazar los nuevos locales de restaurantes y afines, y tener un sistema de recomendación de restaurantes para los usuarios de ambas plataformas, dándoles la posibilidad de conocer nuevos sabores basados en sus experiencias previas.
-
-
-
-## Objetivo General
-
-Identificar patrones de opinión de usuarios en plataformas como Yelp y Google Maps sobre restaurantes en cinco de los estados más poblados de EE.UU. Se elaborarán análisis de sentimientos y modelos predictivos para determinar las tendencias de crecimiento o declive en los restaurantes, así como identificar las ubicaciones óptimas para la expansión de nuevos locales. Además, se implementará un sistema de recomendación para sugerir nuevos establecimientos a los usuarios basado en sus experiencias previas y preferencias.
-
 
 
 ## Alcance
