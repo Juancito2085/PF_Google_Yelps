@@ -23,6 +23,7 @@ Luis Alberto Cerelli: Data engineer.
 Moisés Elías Gómez Montoya: Data scientist.
 
 Nathaly Castro Gómez: Data analyst
+
 #### MISIÓN
 
 Nuestra misión es proporcionar soluciones innovadoras en ciencia de datos que transformen los datos en conocimiento valioso. Esto permite a nuestros clientes tomar decisiones estratégicas basadas en información precisa y de alta calidad, además de acceder a análisis avanzados. Nos especializamos en desbloquear el potencial de los datos mediante la inteligencia artificial y el aprendizaje automático, mejorando la eficiencia y competitividad de las organizaciones.
