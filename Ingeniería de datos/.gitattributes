@@ -1,0 +1,2 @@
+*.csv filter=lfs diff=lfs merge=lfs -text
+Ingeniería[[:space:]]de[[:space:]]datos/Yelps/notebooks_yelp/checkin_json/checkin_clean.csv filter=lfs diff=lfs merge=lfs -text
