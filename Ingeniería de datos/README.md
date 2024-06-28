@@ -6,7 +6,7 @@ En las carpetas **Google** y **Yelp** se encontrarán los documentos referidos a
 
 ### PIPELINE
 
-<img src="/img/pipeline_mejorado.drawio.png" title="Pipeline_mejorado" alt="pipeline_mejorado" width="600" height="300"/>
+<img src="/img/pipeline_mejorado.drawio.png" title="Pipeline_mejorado" alt="pipeline_mejorado" width="800" height="300"/>
 
 En este pipeline tenemos:
 - Google Cloud storage: que funciona como nuestro Data Lake donde los archivos se almacenan en buckets y en su forma cruda.
@@ -16,7 +16,7 @@ En este pipeline tenemos:
 
 ### PROCESOS DE LAS FUNCIONES
 
-<img src="/img/funciones.drawio.png" title="Pipeline_mejorado" alt="pipeline_mejorado" width="400" height="150"/>
+<img src="/img/funciones.drawio.png" title="Pipeline_mejorado" alt="pipeline_mejorado" />
 
 En términos generales podemos decir que los procesos de las funciones son los siguientes:
 
@@ -24,3 +24,11 @@ En términos generales podemos decir que los procesos de las funciones son los s
 2) Transformación de la información: se realizan las transformaciones necesarias para las necesidades del proyecto.
 3) Almacenamiento de la información en Big Query: se almacena la información para su posterior uso.
 4) Eliminación de duplicados entre lotes: se verifican que no haya duplicados en Big Query y si los hay se eliminan.
+
+### PROCESO DE NEGOCIOS Y REVIEWS
+
+<img src="/img/lotes.drawio.png" title="Lotes" alt="lotes" />
+
+En el caso de los negocios y reviews se da algo muy particular, ya que al poder filtrar la información de los negocios por tipo y ubicación no tenemos problema para llenar la tabla correspondiente.
+
+En lo que se refiere a reviews no se puede filtrar a menos que se cruce información con los negocios. Aquí es donde se realiza el cruce de datos y se genera la nueva tabla de análisis de sentimientos.
