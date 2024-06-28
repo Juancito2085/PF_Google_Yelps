@@ -111,5 +111,7 @@ Streamlit <img src="img/streamlit-original.svg" title="Streamlit" alt="Streamlit
 Scikit-learn <img src="img/scikit-learn-logo-big.png" title="Scikit-learn" alt="Scikit-learn" width="60" height="40"/>
 
 ### PIPELINE
+<img src="img/pipeline.png" title="Pipeline" alt="pipeline" />
+
 Para el pipeline basicamente se ha utilizado **Google Cloud Storage** como Data Lake, donde se almacenan los datos en crudo. Para cumplir la función del Data Warehouse se ha utilizado el servicio de **Big Query**. En lo que se refiere a la orquestación se utilizo **Google Cloud Functions** para poder ejecutar los scripts para las extracciones de los archivos desde el Data Lake, transformarlos y cargarlos al Data Warehouse.
 

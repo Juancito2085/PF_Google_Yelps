@@ -6,6 +6,21 @@ En las carpetas **Google** y **Yelp** se encontrarán los documentos referidos a
 
 ### PIPELINE
 
-<img src="/img/pipeline_mejorado.drawio.png" title="Pipeline_mejorado" alt="pipeline_mejorado" />
+<img src="/img/pipeline_mejorado.drawio.png" title="Pipeline_mejorado" alt="pipeline_mejorado" width="600" height="300"/>
+
+En este pipeline tenemos:
+- Google Cloud storage: que funciona como nuestro Data Lake donde los archivos se almacenan en buckets y en su forma cruda.
+- Google Big Query: donde funciona como nuestro Data Warehouse y almacena la información ya procesada en forma de tablas, pero debemos recordar que no es un tipo de base de datos realacional.
+- Google Cloud Loggin: quien se encarga de registrar eventos y activar las funciones de google dependiendo de su configuración.
+- Google Cloud Functions: que ejecuta los scripts para las extracciones transformaciones y cargas.
 
 ### PROCESOS DE LAS FUNCIONES
+
+<img src="/img/funciones.drawio.png" title="Pipeline_mejorado" alt="pipeline_mejorado" width="400" height="150"/>
+
+En términos generales podemos decir que los procesos de las funciones son los siguientes:
+
+1) Extracción del bucket: se extraen los archivos del bucket correspondiente en base al evento que se detectó, en este caso la creación de un objeto dentro del bucket (cuando se sube un archivo).
+2) Transformación de la información: se realizan las transformaciones necesarias para las necesidades del proyecto.
+3) Almacenamiento de la información en Big Query: se almacena la información para su posterior uso.
+4) Eliminación de duplicados entre lotes: se verifican que no haya duplicados en Big Query y si los hay se eliminan.
