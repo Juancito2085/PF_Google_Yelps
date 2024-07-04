@@ -6,7 +6,7 @@ En las carpetas **Google** y **Yelp** se encontrarán los documentos referidos a
 
 ### PIPELINE
 
-<img src="/img/pipeline_mejorado.drawio.png" title="Pipeline_mejorado" alt="pipeline_mejorado" width="100" height="300"/>
+<img src="/img/pipeline_mejorado.drawio.png" title="Pipeline_mejorado" alt="pipeline_mejorado" width="300" height="300"/>
 
 En este pipeline tenemos:
 - Google Cloud storage: que funciona como nuestro Data Lake donde los archivos se almacenan en buckets y en su forma cruda.
