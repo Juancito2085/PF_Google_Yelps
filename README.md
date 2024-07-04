@@ -61,6 +61,11 @@ El alcance de este proyecto queda restringido a los restaurantes  de California,
 
 #### INDICADORES CLAVES DE RENDIMIENTO (KPI's)
 
+En este caso nos basamos en intermensuales porcentuales donde 
+
+$R_i$ = Número total de reviews del mes $i$
+
+$PRP_i$ = Proporción de reviews positivas del mes $i$
 
 * Aumento de la cantidad de reviews totales en un 5% con respecto al semestre anterior por local.
 * Disminución anual en la proporción de las reviews negativas en un 5% por local.
