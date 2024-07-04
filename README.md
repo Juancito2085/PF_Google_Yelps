@@ -115,3 +115,18 @@ Scikit-learn <img src="img/scikit-learn-logo-big.png" title="Scikit-learn" alt="
 
 Para el pipeline basicamente se ha utilizado **Google Cloud Storage** como Data Lake, donde se almacenan los datos en crudo. Para cumplir la función del Data Warehouse se ha utilizado el servicio de **Big Query**. En lo que se refiere a la orquestación se utilizo **Google Cloud Functions** para poder ejecutar los scripts para las extracciones de los archivos desde el Data Lake, transformarlos y cargarlos al Data Warehouse.
 
+### MACHINE LEARNING
+
+En lo referente al modelo de *Machaine Learning* se utilizó la librería Scikit Learn de donde se concluyo que el mejor modelo para esta situación es el *Random Forest Regression*.
+
+Mediante el uso de este tipo de modelo se lograron dos productos de suma utilidad para el inversor. El primero es un modelo de **Predicción de crecimiento**, en base a una categoría seleccionada indica las ciudades donde es más probable que un negocio de dicha categoría pueda crecer. El segundo modelo es un **Identificador de oportunidades**, donde al seleccionar una ciudad y la cantidad de categorias el modelo indicará cuales serán las categorías con mayores probabilidad de exito.
+
+### STREAMLIT
+
+El modelo de ML se desplego en la plataforma gratuita **Streamlit** en el siguiente [enlace](https://cognicorp-gy.streamlit.app/), el mismo pesaba demasiado (alrededor de 600 MB) para ser subido a *GitHub* por lo que se almacenó en un bucket de *Cloud Storage*. 
+
+Para tener un mejor rendimiento del modelo se solicito una expansión de los recursos provisto por la plataforma y al ser para un proyecto educativo, han aumentado a 8 GiB el limite de la memoria RAM. Para esto se completo un formulario y pasadas 24 horas se recibió la respuesta.
+
+### DASHBOARD 
+
+Se realizo un dashboard en *Power BI* para poder llevar a cabo un story telling para el cliente y de esa manera se puedieran llegar a las conclusiones mediante los hallazgos logrados por los analistas. Los datos de este producto son obtenidos directamente del **Data Warehouse** lo que provoca que a medida que se procesen datos se pueda volver a hacer el análisis.
