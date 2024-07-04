@@ -1,0 +1,14 @@
+streamlit
+joblib
+pandas
+matplotlib
+numpy
+scikit-learn==1.4.2
+textblob
+requests
+pickle-mixin 
+pyarrow
+torch
+gcsfs
+folium
+streamlit_folium

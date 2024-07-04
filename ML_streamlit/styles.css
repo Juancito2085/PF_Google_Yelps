@@ -1,0 +1,108 @@
+body, html {
+  background-color: rgb(94,94,94);
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* .st-emotion-cache-13ln4jf {
+  width: 100%;
+  padding: 6rem 1rem 10rem;
+  max-width: 46rem;
+  margin-left: 0px;
+} */
+
+.header {
+  background-color: rgb(94,94,94);
+  /* padding: 20px; */
+  text-align: center;
+  width: 100%; /* Asegura que el elemento ocupe el ancho total */
+  box-sizing: border-box; /* Incluye el padding y el borde en el cálculo del ancho */
+}
+
+hr {
+  border: none; /* Elimina el borde predeterminado */
+  height: 12px; /* Establece el grosor de la línea */
+  background-color: #d4af37; /* Color de fondo, que será el color de la línea */
+ }
+
+/* Cambia el fondo del menú lateral */
+div[data-testid="stSidebarContent"] {
+  background-color: rgb(74,74,74) !important; /* Ajusta el color de fondo como desees */
+}
+
+/* Ajusta el margen superior del primer elemento en el menú lateral */
+div[data-testid="stSidebarUserContent"] > div:first-child {
+  margin-top: 250px; /* Ajusta esto según necesites */
+}
+
+.st-emotion-cache-13k62yr {
+  position: absolute;
+  background: rgb(94,94,94);
+  color: rgb(250, 250, 250);
+  inset: 0px;
+  color-scheme: dark;
+  overflow: hidden;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+  /* border-left: 3px solid #d4af37;
+  border-right: 3px solid #d4af37; */
+}
+
+h1 {
+  color: #f1c40f;
+  /* margin-bottom: 10px; */
+}
+
+p {
+  color: #ecf0f1;
+  font-size: 18px;
+}
+
+.imagen-especifica {
+  max-width: 35% !important;
+  height: auto;
+  display: block;
+  margin: auto;
+} 
+
+/* Estilo por defecto para la imagen, tamaño máximo inicial y centrado */
+img1 {
+  max-width: 100% !important; /* Reduce el tamaño de la imagen */
+  height: auto;
+  display: block; /* Asegura que la imagen se trate como un bloque */
+  margin: auto; /* Centra la imagen horizontalmente */
+}
+
+.columnas-ajustables .stImage, .columnas-ajustables .folium-map {
+  max-width: 100%;
+  width: 100%;
+}
+
+
+/* Estilos para pantallas de tabletas (ej. iPad) 
+@media (min-width: 768px) and (max-width: 1024px) {
+  img {
+    max-width: 80%;
+  }
+}*/
+
+/* Estilos para pantallas grandes (ej. monitores de escritorio) 
+@media (min-width: 1025px) {
+  img {
+    max-width: 60%;
+  }
+}*/
+
+/* Estilos para pantallas pequeñas (ej. celulares) 
+@media (max-width: 767px) {
+  img {
+    max-width: 100%;
+  }
+}*/
