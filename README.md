@@ -71,7 +71,9 @@ $PRN_i$ = Proporción de Reviews Negativas del mes $i$
 
 |Nombre|Fórmula|Meta|Interpretación|
 |:-----|:-----:|:--:|:-------------|
-|Cambio total de reviews|$\frac{R_i-R_{i-1}}{R_{i-1}}$|$+5\%$|Cambio en la visibilidad|
+|Cambio total de reviews|$\frac{R_i-R_{i-1}}{R_{i-1}}.100$|$+5\%$|Cambio en la visibilidad|
+|Cambio proporción de reviews positivas|$\frac{PRP_i-PRP_{i-1}}{PRP_{i-1}}.100$|$+5\%$|Cambio en la opinión positiva|
+
 
 * Aumento de la cantidad de reviews totales en un 5% con respecto al semestre anterior por local.
 * Disminución anual en la proporción de las reviews negativas en un 5% por local.
