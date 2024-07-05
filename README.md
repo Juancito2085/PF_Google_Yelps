@@ -75,15 +75,6 @@ $PRN_i$ = Proporción de Reviews Negativas del mes $i$
 |Cambio proporción de reviews positivas|$\left(\frac{PRP_i-PRP_{i-1}}{PRP_{i-1}}\right).100$%|$+5$%|Cambio en la opinión positiva|
 |Cambio proporción de reviews negativa|$\left(\frac{PRN_i-PRN_{i-1}}{PRN_{i-1}}\right).100$%|$-5$%|Cambio en la opinión negativa|
 
-
-* Aumento de la cantidad de reviews totales en un 5% con respecto al semestre anterior por local.
-* Disminución anual en la proporción de las reviews negativas en un 5% por local.
-* Aumento anual en la proporción de las reviews positivas en un 5% por local.
-* Disminución anual en la proporción de las reviews negativas en temporada alta (Junio, Julio y Agosto) en un 5% por local.
-* Aumento anual en la proporción de las reviews positivas en temporada alta (Junio, Julio y Agosto) en un 5% por local.
-* Disminución de la cantidad total de reviews del resto de locales competencia en la misma ciudad en un 5%.
-
-
 #### STACK TECNOLÓGICO
 
 ### Lenguajes de Programación
